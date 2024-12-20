@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "pages/api/**/*.js", "use": "@vercel/node" },
+    { "src": "pages/**/*.js", "use": "@vercel/next" }
+  ],
+  "env": {
+    "HUGGINGFACE_API_KEY": "@huggingface_api_key"
+  }
+}
